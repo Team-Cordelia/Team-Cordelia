@@ -126,6 +126,38 @@ a:hover, a:active {
 /* ===========================
  ======= Content Area ======
  =========================== */
+ 
+#menu {
+    max-width: 1200px;
+    text-align: left;
+    margin: auto;
+}
+
+#menu img {
+    padding: 0px 5px 0px 5px;
+    overflow: hidden;
+
+}
+
+
+.pic {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.pic:hover {
+    cursor: pointer;
+    height:150%;
+    width: 150%;
+    transform:scale(1.5);
+    -ms-transform:scale(1.5); /* IE 9 */
+    -moz-transform:scale(1.5); /* Firefox */
+    -webkit-transform:scale(1.5); /* Safari and Chrome */
+    -o-transform:scale(1.5); /* Opera */
+}
 
 .main-content {
 	overflow: hidden;
